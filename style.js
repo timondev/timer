@@ -77,7 +77,7 @@ if (params.has('color')) {
 
 if (params.has('font-size')) {
   timerRef.style.fontSize = params.get('font-size');
-} else if (params.has('dynamic-font')) {
+} else if (params.has('dynamic-font-size')) {
   bodyRef.style.overflow = 'hidden';
   timerRef.style.lineHeight = 1;
 
